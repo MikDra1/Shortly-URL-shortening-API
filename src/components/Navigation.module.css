@@ -1,0 +1,128 @@
+.headerMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 5%;
+  padding-block: 2rem;
+  position: relative;
+  z-index: 99;
+}
+
+.headerMobileUl {
+  display: none;
+  position: fixed;
+  top: 12.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  list-style: none;
+  text-align: center;
+  gap: 1rem;
+  padding-block: 1rem 2.5rem;
+  background-color: var(--Dark-Violet);
+  border-radius: 0.8rem;
+}
+
+.headerMobileUl div:first-child {
+  border-top: 1px solid var(--Grayish-Blue);
+  padding-top: 1rem;
+}
+
+.headerMobileUl div {
+  text-transform: capitalize;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 1.15rem;
+  border-bottom: 1px solid var(--Grayish-Blue);
+  width: 90%;
+  padding-bottom: 1rem;
+}
+
+.headerMobileUl button {
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 0.75rem;
+}
+
+.headerMobileLoginDiv {
+  margin-top: 0.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--Grayish-Violet);
+}
+
+.headerMobile img {
+  z-index: 3;
+}
+
+.mobileUlOpen.mobileUlOpen {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.headerDesktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  margin-inline: auto;
+  max-width: 73.5rem;
+  padding-inline: 1%;
+}
+
+
+
+.headerDesktop li {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.headerDesktop button {
+  padding-block: .6rem;
+  padding-inline: 1.5rem;
+  font-size: 1rem;
+}
+
+.headerDesktop button:hover {
+}
+
+.headerDesktopFlex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.headerDesktopFlex div {
+  font-weight: 700;
+}
+
+.headerDesktopFlex > div {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  text-transform: capitalize;
+  color: var(--Grayish-Violet);
+
+}
+
+.headerDesktopItem {
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.headerDesktopItem:hover {
+  color: var(--Very-Dark-Blue);
+}
+
+.hamburgerIcon {
+  width: 3rem;
+  filter: invert(69%) sepia(8%) saturate(254%) hue-rotate(213deg)
+    brightness(89%) contrast(85%);
+}
+
+
